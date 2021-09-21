@@ -1,8 +1,11 @@
-# dky-select-country-list
+# DKy Select Country List
 
-> Select Country List for React JS
+> dky-select-country-list
 
-[![NPM](https://img.shields.io/npm/v/dky-select-country-list.svg)](https://www.npmjs.com/package/dky-select-country-list) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![npm version](https://img.shields.io/npm/v/dky-select-country-list.svg?style=flat-square)](https://www.npmjs.com/package/dky-select-country-list)
+[![](https://img.shields.io/github/last-commit/dekartmc/dky-select-country-list/master)]()
+[![MIT license](https://img.shields.io/badge/License-MIT-success.svg)](https://opensource.org/licenses/MIT)
+[![Twitter](https://img.shields.io/twitter/follow/dekartmc?style=social)](https://twitter.com/dekartmc)
 
 ## Install
 
@@ -13,16 +16,16 @@ npm install --save dky-select-country-list
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 
-import MyComponent from 'dky-select-country-list'
+import { SelectCountry } from 'dky-select-country-list'
 import 'dky-select-country-list/dist/index.css'
 
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+const App = () => {
+  return <SelectCountry />
 }
+
+export default App
 ```
 
 ## License
