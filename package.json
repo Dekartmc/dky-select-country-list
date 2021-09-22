@@ -52,5 +52,12 @@
   ],
   "dependencies": {
     "react-select": "^4.3.1"
-  }
+  },
+  "keywords": [
+    "react",
+    "select",
+    "country",
+    "countries",
+    "typescript"
+  ]
 }
